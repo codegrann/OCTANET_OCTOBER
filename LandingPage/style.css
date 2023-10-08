@@ -11,9 +11,14 @@ body {
   /* background-image: radial-gradient(center, blue, black); */
   /* background-size: cover; */
 }
+#landing {
+  height: 100vh;
+  border: 2px solid white;
+}
 nav {
   width: 500px;
-  margin: 1rem auto;
+  /* position: fixed; */
+  margin: 1rem 33%;
   padding-block: 0.9rem;
   border: 1px solid rgb(217, 211, 211);
   border-radius: 6px;
@@ -36,8 +41,8 @@ nav a {
 #about_text {
   border: 2px solid yellow;
   width: 550px;
-  font-size: 16pt;
-  padding-block: 1rem;
+  font-size: 15pt;
+  padding-block: 1.7rem;
   padding-inline: 0.75rem;
 }
 #about_avatar {
