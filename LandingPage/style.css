@@ -42,6 +42,9 @@ nav a {
   border: 2px solid yellow;
   width: 550px;
   font-size: 15pt;
+  word-spacing: 0.1rem;
+  letter-spacing: 0.6px;
+  line-height: 1.5;
   padding-block: 1.7rem;
   padding-inline: 0.75rem;
 }
