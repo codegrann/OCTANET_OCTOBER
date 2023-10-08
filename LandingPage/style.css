@@ -31,6 +31,9 @@ nav a {
   color: rgb(158, 224, 208);
   text-decoration: none;
 }
+#about {
+  text-align: center;
+}
 #about_card {
   border: 2px solid red;
   display: flex;
