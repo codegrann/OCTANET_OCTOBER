@@ -26,3 +26,10 @@ nav a {
   color: rgb(158, 224, 208);
   text-decoration: none;
 }
+
+@media (max-width: 570px) {
+  nav {
+    /* collapse nav bar and show nav menu */
+    /* display: none; */
+  }
+}
