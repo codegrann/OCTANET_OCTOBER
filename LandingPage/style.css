@@ -22,6 +22,7 @@ nav {
   gap: 1.8rem;
 }
 nav a {
+  font-size: 13pt;
   color: rgb(158, 224, 208);
   text-decoration: none;
 }
