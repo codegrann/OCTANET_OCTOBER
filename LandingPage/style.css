@@ -43,6 +43,8 @@ nav {
   text-align: center;
   width: 140px;
   margin: 0 auto;
+  box-sizing: border-box;
+  transition: border-bottom 100ms ease;
   /* text-align: center; */
   /* border: 2px solid red; */
 }
@@ -88,6 +90,10 @@ nav {
 #services {
   text-align: center;
   padding-bottom: 2rem;
+  width: 165px;
+  padding: 0;
+  margin: 3rem auto;
+  transition: border-bottom 100ms ease;
 }
 #about_us:hover,
 #services:hover {
