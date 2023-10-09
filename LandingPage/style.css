@@ -107,8 +107,9 @@ nav {
 }
 .service_card {
   width: 280px;
+  height: 330px;
   background-color: #6db5ca;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   border-radius: 5px;
 }
 .service_avatar {
