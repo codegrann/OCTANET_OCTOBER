@@ -52,7 +52,8 @@ nav {
 #about_text {
   /* border: 2px solid yellow; */
   width: 550px;
-  color: aliceblue;
+  color: rgb(202, 216, 227);
+  opacity: 0.9;
   font-size: 15pt;
   word-spacing: 0.1rem;
   letter-spacing: 0.6px;
@@ -106,7 +107,7 @@ nav {
   transition: all 400ms ease-out;
   /* border: 2px solid wheat; */
 }
-.service_avatar img:hover {
+.service_card:hover img {
   transform: scale(1.2);
 }
 .service_text {
