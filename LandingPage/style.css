@@ -146,13 +146,14 @@ nav {
   text-align: center;
 }
 #contact form {
+  background-color: white;
   display: flex;
   flex-direction: column;
   padding: 3rem;
 }
 #contact div {
   width: 60%;
-  margin: 0 auto;
+  margin: 3rem auto;
 }
 .inputs {
   min-height: 60px;
@@ -171,7 +172,7 @@ nav {
   text-shadow: 4px 4px 10px rgb(227, 217, 217);
 }
 #footer {
-  height: 250px;
+  height: 200px;
   background-color: rgb(10, 10, 50);
   /* background-color: #051b35; */
   /* display: flex; */
