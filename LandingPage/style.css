@@ -94,8 +94,8 @@ nav {
 #services {
   width: 200px;
   padding-bottom: 2rem;
-  padding: 0;
-  /* margin: 3rem auto; */
+  /* padding: 0; */
+  margin: 3rem auto;
   color: rgb(158, 224, 208);
   text-align: center;
   transition: border-bottom 100ms ease;
