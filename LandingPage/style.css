@@ -134,6 +134,33 @@ nav {
   /* font-family: Montserrat; */
   font-size: 12pt;
 }
+#contact_me {
+  border-bottom: 1px solid var(--font-dark);
+  /* border: none; */
+  /* box-shadow: 0 1px 2px black; */
+  width: 250px;
+  text-align: center;
+}
+#contact form {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+#contact div {
+  width: 70%;
+  margin: 0 auto;
+}
+.inputs {
+  min-height: 60px;
+}
+#contact textarea {
+  height: 170px;
+}
+#contact button {
+  width: 90px;
+  transition: color, background-color var(--transition-slow);
+  transition-timing-function: ease-out;
+}
 
 @media (max-width: 570px) {
   nav {
