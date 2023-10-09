@@ -133,13 +133,9 @@ nav {
 }
 .service_text {
   padding-inline: 0.3rem;
-  /* font-family: Montserrat; */
   font-size: 12pt;
 }
 #contact_me {
-  /* border-bottom: 2px solid black; */
-  /* border: none; */
-  /* box-shadow: 0 1px 2px black; */
   transition: border-bottom 100ms ease-out;
   width: 200px;
   margin: 2rem auto;
@@ -174,10 +170,6 @@ nav {
 #footer {
   height: 200px;
   background-color: rgb(10, 10, 50);
-  /* background-color: #051b35; */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align */
   text-align: center;
   padding-top: 1.75rem;
 }
