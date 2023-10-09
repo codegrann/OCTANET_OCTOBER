@@ -174,9 +174,11 @@ nav {
 #footer h1 {
   color: #ffffff;
 }
-#footer .socials {
+.socials {
   display: flex;
   width: 250px;
+  margin: 0 auto;
+  /* border: 2px solid rgb(212, 11, 11); */
   justify-content: space-around;
   border: none;
 }
@@ -190,7 +192,7 @@ nav {
   /* height: 40px; */
   /* line-height: 40px; */
   border-radius: 3px;
-  transition: color, background-color var(--transition-slow);
+  transition: color, background-color 500ms;
   transition-timing-function: ease-out;
   /* text-align: center; */
 }
