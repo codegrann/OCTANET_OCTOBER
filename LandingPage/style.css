@@ -86,16 +86,25 @@ nav {
   flex-wrap: wrap;
 }
 .service_card {
-  width: 300px;
+  width: 280px;
+  background-color: #6db5ca;
   border: 2px solid red;
+  border-radius: 5px;
 }
 .service_avatar {
-  width: 297px;
+  width: 277px;
+  border-radius: 5px;
+  overflow: hidden;
   /* border: 2px solid yellow; */
 }
 .service_avatar img {
   width: 100%;
+  border-radius: 5px;
+  transition: all 400ms ease-out;
   /* border: 2px solid wheat; */
+}
+.service_avatar img:hover {
+  transform: scale(1.2);
 }
 
 @media (max-width: 570px) {
