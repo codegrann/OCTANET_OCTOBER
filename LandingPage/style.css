@@ -97,7 +97,8 @@ nav {
   transition: border-bottom 100ms ease;
 }
 #about_us:hover,
-#services:hover {
+#services:hover,
+#contact_me:hover {
   border-bottom: 2px solid rgb(13, 3, 3);
 }
 #service_cards {
@@ -136,9 +137,10 @@ nav {
   font-size: 12pt;
 }
 #contact_me {
-  border-bottom: 2px solid black;
+  /* border-bottom: 2px solid black; */
   /* border: none; */
   /* box-shadow: 0 1px 2px black; */
+  transition: border-bottom 100ms ease-out;
   width: 200px;
   margin: 2rem auto;
   text-align: center;
@@ -149,7 +151,7 @@ nav {
   padding: 3rem;
 }
 #contact div {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
 }
 .inputs {
@@ -160,13 +162,13 @@ nav {
 }
 #contact button {
   width: 90px;
-  transition: color, background-color var(--transition-slow);
+  transition: color, background-color 200ms;
   transition-timing-function: ease-out;
 }
 #about_us,
 #services,
 #contact_me {
-  text-shadow: 2px 2px 2px solid gray;
+  text-shadow: 4px 4px 10px rgb(227, 217, 217);
 }
 #footer {
   height: 250px;
