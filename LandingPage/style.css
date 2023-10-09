@@ -8,6 +8,7 @@ body {
     rgb(84, 84, 187) 5%,
     rgb(52, 52, 54)
   );
+}
 #landing {
   height: 90vh;
   position: relative;
@@ -15,6 +16,11 @@ body {
 }
 nav {
   width: 500px;
+  background-image: linear-gradient(
+    90deg,
+    rgb(52, 52, 54) 5%,
+    rgb(84, 84, 187)
+  );
   position: fixed;
   margin-inline: 33%;
   margin-top: -3rem;
@@ -40,9 +46,10 @@ nav {
   margin-bottom: -1rem;
 }
 #about_us {
-  text-align: center;
   width: 200px;
   margin: 0 auto;
+  color: rgb(158, 224, 208);
+  text-align: center;
   box-sizing: border-box;
   transition: border-bottom 100ms ease;
 }
@@ -85,11 +92,12 @@ nav {
   padding-bottom: 3rem;
 }
 #services {
-  text-align: center;
-  padding-bottom: 2rem;
   width: 200px;
+  padding-bottom: 2rem;
   padding: 0;
-  margin: 3rem auto;
+  /* margin: 3rem auto; */
+  color: rgb(158, 224, 208);
+  text-align: center;
   transition: border-bottom 100ms ease;
 }
 #about_us:hover,
@@ -129,10 +137,11 @@ nav {
   font-size: 12pt;
 }
 #contact_me {
-  transition: border-bottom 100ms ease-out;
   width: 200px;
   margin: 2rem auto;
   text-align: center;
+  color: rgb(158, 224, 208);
+  transition: border-bottom 100ms ease-out;
 }
 #contact form {
   background-color: white;
@@ -158,7 +167,7 @@ nav {
 #about_us,
 #services,
 #contact_me {
-  text-shadow: 4px 4px 10px rgb(227, 217, 217);
+  text-shadow: 4px 4px 10px rgb(171, 164, 164);
 }
 #footer {
   height: 200px;
