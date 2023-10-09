@@ -5,15 +5,15 @@
 body {
   background-image: linear-gradient(
     90deg,
-    rgb(27, 27, 108) 5%,
-    rgb(29, 29, 32)
+    rgb(84, 84, 187) 5%,
+    rgb(52, 52, 54)
   );
   /* background-image: radial-gradient(center, blue, black); */
   /* background-size: cover; */
 }
 #landing {
   height: 90vh;
-  border: 2px solid white;
+  /* border: 2px solid white; */
 }
 nav {
   width: 500px;
@@ -26,23 +26,31 @@ nav {
   justify-content: center;
   gap: 1.8rem;
 }
-nav a {
+.navLinks {
   font-size: 13pt;
   color: rgb(158, 224, 208);
   text-decoration: none;
+  transition: color 100ms ease-in;
+}
+.navLinks:hover {
+  color: black;
+}
+#landing h2 {
+  margin-top: 5rem;
+  margin-bottom: -1rem;
 }
 #about {
   text-align: center;
 }
 #about_card {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 3rem;
 }
 #about_text {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   width: 550px;
   font-size: 15pt;
   word-spacing: 0.1rem;
@@ -54,8 +62,13 @@ nav a {
 #about_avatar {
   border: 2px solid green;
   width: 350px;
-  border-radius: 36% 78% 78% 36%/38% 38% 70% 70%;
   height: 350px;
+  border-radius: 36% 78% 78% 36%/38% 38% 70% 70%;
+  box-shadow: 3px 3px 15px grey;
+  transition: transform 800ms ease-out;
+}
+#about_avatar:hover {
+  transform: scale(1.1);
 }
 #about_avatar img {
   width: 100%;
