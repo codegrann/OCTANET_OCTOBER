@@ -200,9 +200,3 @@ nav {
   color: #ffffff;
   border: 1px solid #ffffff;
 }
-@media (max-width: 570px) {
-  nav {
-    /* collapse nav bar and show nav menu */
-    /* display: none; */
-  }
-}
