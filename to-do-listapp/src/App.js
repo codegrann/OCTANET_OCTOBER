@@ -14,6 +14,7 @@ function App() {
   return (
     <div>
       <TaskList tasks={tasks} />
+      {/* {tasks.forEach((task) => console.log(task))} */}
     </div>
   );
 }

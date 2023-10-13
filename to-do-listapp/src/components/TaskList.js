@@ -7,7 +7,7 @@ function TaskList({ tasks }) {
       <p>This tasklist includes: </p>
       <ul>
         {tasks.forEach((task) => (
-          <li>{task.a.value}</li>
+          <li>{console.log(task.a)}</li>
         ))}
       </ul>
     </div>
