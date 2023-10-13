@@ -1,4 +1,4 @@
-function TaskList() {
-  return <div>This is a tasklist</div>;
+function TaskList({ tasks }) {
+  return <div>This tasklist includes {tasks.a} </div>;
 }
 export default TaskList;
