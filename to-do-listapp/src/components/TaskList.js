@@ -1,11 +1,15 @@
 function TaskList({ tasks }) {
-  const list = function list(tasks) {
-    tasks.foreach((task) => <li>task.a</li>);
-  };
+  //   const list = function list(tasks) {
+  //   const list = tasks.foreach((task) => <li id="task.a">{task.a}</li>);
+  // };
   return (
     <div>
       <p>This tasklist includes: </p>
-      <ul>{list}</ul>
+      <ul>
+        {tasks.forEach((task) => (
+          <li>{task.a.value}</li>
+        ))}
+      </ul>
     </div>
   );
 }

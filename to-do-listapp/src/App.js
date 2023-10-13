@@ -6,9 +6,9 @@ function App() {
   const [tasks, setTasks] = useState([
     {
       a: 2,
-      b: 2,
-      c: 3,
-      d: 4,
+    },
+    {
+      a: 2,
     },
   ]);
   return (
