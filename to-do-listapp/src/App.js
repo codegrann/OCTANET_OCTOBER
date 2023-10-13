@@ -10,11 +10,17 @@ function App() {
     {
       a: 2,
     },
+    {
+      a: 2,
+    },
+    {
+      a: 2,
+    },
   ]);
   return (
     <div>
       <TaskList tasks={tasks} />
-      {/* {tasks.forEach((task) => console.log(task))} */}
+      {tasks.forEach((task) => console.log(task))}
     </div>
   );
 }
