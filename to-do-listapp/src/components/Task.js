@@ -1,6 +1,6 @@
 function Task() {
   return (
-    <div>
+    <div className="task" style={{ display: "flexbox", gap: "1rem" }}>
       <input type="checkbox" />
       <input type="text" name="" />
       <button>X</button>
