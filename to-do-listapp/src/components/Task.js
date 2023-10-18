@@ -4,6 +4,7 @@ function Task() {
       <input type="checkbox" />
       <input type="text" name="" />
       <button>X</button>
+      <p>3 days to go</p>
     </div>
   );
 }

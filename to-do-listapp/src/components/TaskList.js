@@ -1,3 +1,4 @@
+import Task from "./Task";
 function TaskList({ tasks }) {
   //   const list = function list(tasks) {
   const list = tasks.map((task) => <li key="task.a">{task.a}</li>);
@@ -6,6 +7,7 @@ function TaskList({ tasks }) {
     <div>
       <p>This tasklist includes: </p>
       <ul>{list}</ul>
+      <Task />
     </div>
   );
 }
