@@ -1,4 +1,10 @@
 function Task() {
-  return <div>This is a task</div>;
+  return (
+    <div>
+      <input type="checkbox" />
+      <input type="text" name="" />
+      <button>X</button>
+    </div>
+  );
 }
 export default Task;
