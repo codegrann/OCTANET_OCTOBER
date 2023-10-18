@@ -1,6 +1,6 @@
 function TaskList({ tasks }) {
   //   const list = function list(tasks) {
-  const list = tasks.forEach((task) => <li key="task.a">{task.a}</li>);
+  const list = tasks.map((task) => <li key="task.a">{task.a}</li>);
   // };
   return (
     <div>
