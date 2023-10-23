@@ -20,7 +20,9 @@ function App() {
   return (
     <div>
       <TaskList tasks={tasks} />
-      {console.log(fetch("http://localhost:3000/Xkitchen").json())}
+      {fetch("http://localhost:3000/Xkitchen")
+        .then((res) => res.json())
+        .then((data) => console.log(data))}
     </div>
   );
 }
