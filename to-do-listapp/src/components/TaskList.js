@@ -19,8 +19,6 @@ function TaskList({ tasks }) {
     },
   ]);
 
-  // const taskTitle = "Finish my project";
-  // const days = 10;
   // const deadLine = prompt("dd/mm/yy");
   return (
     <div>
