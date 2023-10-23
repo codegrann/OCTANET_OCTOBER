@@ -19,13 +19,17 @@ function TaskList({ tasks }) {
     },
   ]);
 
+  function addTask() {
+    setTaskList();
+  }
+
   // const deadLine = prompt("dd/mm/yy");
   return (
     <div>
       <p>This tasklist includes: </p>
       <div>
         <input type="text" placeholder="enter title of your task" />
-        <button>Add</button>
+        <button onClick={addTask}>Add</button>
       </div>
       {taskList.map((task) => (
         <Task id={task.id} taskTitle={task.taskTitle} days={task.days} />
