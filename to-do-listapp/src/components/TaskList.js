@@ -1,13 +1,11 @@
 import Task from "./Task";
 function TaskList({ tasks }) {
-  //   const list = function list(tasks) {
-  const list = tasks.map((task) => <li key="task.a">{task.a}</li>);
-  // };
+  const taskTitle = "Finish my project";
+  // const deadLine = prompt("dd/mm/yy");
   return (
     <div>
       <p>This tasklist includes: </p>
-      <ul>{list}</ul>
-      <Task />
+      <Task taskTitle={taskTitle} />
     </div>
   );
 }
