@@ -9,6 +9,7 @@ function Task({ taskTitle, days }) {
   }
   function checking() {
     setChecked(true);
+    setTimeout(setTaskDone, 2000);
   }
 
   return done ? null : (
