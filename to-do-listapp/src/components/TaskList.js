@@ -1,8 +1,15 @@
 import { useState } from "react";
 import Task from "./Task";
 function TaskList({ tasks }) {
-  const taskTitle = "Finish my project";
-  const days = 10;
+  const [taskList, setTaskList] = useState([
+    {
+      taskTitle: "Finish my project",
+      days: 10,
+    },
+  ]);
+
+  // const taskTitle = "Finish my project";
+  // const days = 10;
   // const deadLine = prompt("dd/mm/yy");
   return (
     <div>
@@ -11,8 +18,10 @@ function TaskList({ tasks }) {
         <input type="text" placeholder="enter title of your task" />
         <button>Add</button>
       </div>
-
-      <Task taskTitle={taskTitle} days={days} />
+      {taskList.map((task) => {
+        <Task taskTitle={task.taskTitle} days={task.days} />;
+      })}
+      {/* <Task /> */}
     </div>
   );
 }
