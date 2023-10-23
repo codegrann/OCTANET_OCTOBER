@@ -7,6 +7,11 @@ function TaskList({ tasks }) {
   return (
     <div>
       <p>This tasklist includes: </p>
+      <div>
+        <input type="text" placeholder="enter title of your task" />
+        <button>Add</button>
+      </div>
+
       <Task taskTitle={taskTitle} days={days} />
     </div>
   );
