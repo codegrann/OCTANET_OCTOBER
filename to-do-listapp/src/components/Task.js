@@ -21,7 +21,9 @@ function Task({ taskTitle, days }) {
         value={taskTitle}
         style={{ textDecoration: checked ? "line-through" : "none" }}
       />
-      <button onClick={setTaskDone}>X</button>
+      <button onClick={setTaskDone} className="closeButton">
+        X
+      </button>
       <p style={{ display: "inline" }}>{days} days to go</p>
     </div>
   );
