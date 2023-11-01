@@ -8,13 +8,14 @@ function TaskList({ tasks }) {
       dueDtae: 10,
     },
   ]);
+  const [title, setTitle] = useState("");
 
   function addTask(e) {
     setTaskList([
       ...taskList,
       {
         id: taskList.length - 1,
-        taskTitle: e.target.value,
+        taskTitle: title,
       },
     ]);
   }
@@ -24,7 +25,11 @@ function TaskList({ tasks }) {
     <div>
       <p>Your Tasks: </p>
       <div>
-        <input type="text" placeholder="enter the task name" />
+        <input
+          type="text"
+          placeholder="enter the task name"
+          onChange={(e) => setTitle(e.target.value)}
+        />
         <button onClick={addTask}>Add</button>
       </div>
 
