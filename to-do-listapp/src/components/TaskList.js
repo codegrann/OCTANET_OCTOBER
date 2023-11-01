@@ -14,9 +14,10 @@ function TaskList({ tasks }) {
     const dueDate = new Date(prompt("Due date: yyyy-mm-dd"));
     const currentDate = new Date();
     const days = Math.ceil((dueDate - currentDate) / (24 * 60 * 60 * 1000));
-    setInterval(getRemainingDays(), 86400000);
+
     return days;
   }
+  // setInterval(getRemainingDays(), 86400000);
 
   function addTask(e) {
     // getRemainingDays();
