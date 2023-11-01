@@ -10,10 +10,16 @@ function TaskList({ tasks }) {
   ]);
   const [title, setTitle] = useState("");
 
-  function addTask(e) {
-    const dueDate = new Date(prompt("Due date: yyyy/mm/dd"));
+  function getRemainingDays() {
+    const dueDate = new Date(prompt("Due date: yyyy-mm-dd"));
     const currentDate = new Date();
-    const days = currentDate;
+    const days = Math.ceil((dueDate - currentDate) / (24 * 60 * 60 * 1000));
+    setInterval(getRemainingDays(), 86400000);
+    return days;
+  }
+
+  function addTask(e) {
+    // getRemainingDays();
 
     // ADD TASK TO THE LIST OF TASKS
     setTaskList([
@@ -21,7 +27,7 @@ function TaskList({ tasks }) {
       {
         id: taskList.length - 1,
         taskTitle: title,
-        days: days,
+        days: getRemainingDays(),
       },
     ]);
   }
