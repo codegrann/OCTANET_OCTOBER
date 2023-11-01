@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Task from "./Task";
-function TaskList({ tasks }) {
+function TaskList() {
   const [taskList, setTaskList] = useState([
     {
       id: 1,
@@ -20,8 +20,6 @@ function TaskList({ tasks }) {
   // setInterval(getRemainingDays(), 86400000);
 
   function addTask(e) {
-    // getRemainingDays();
-
     // ADD TASK TO THE LIST OF TASKS
     setTaskList([
       ...taskList,
@@ -33,7 +31,6 @@ function TaskList({ tasks }) {
     ]);
   }
 
-  // const deadLine = prompt("dd/mm/yy");
   return (
     <div>
       <p>Your Tasks: </p>
