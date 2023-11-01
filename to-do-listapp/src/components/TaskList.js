@@ -11,8 +11,9 @@ function TaskList({ tasks }) {
   const [title, setTitle] = useState("");
 
   function addTask(e) {
-    let dueDate = prompt("Due date: yyyy/mm/dd");
-    const days = new Date(dueDate);
+    const dueDate = new Date(prompt("Due date: yyyy/mm/dd"));
+    const currentDate = new Date();
+    const days = currentDate;
 
     // ADD TASK TO THE LIST OF TASKS
     setTaskList([
